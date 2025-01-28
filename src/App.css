@@ -1,0 +1,31 @@
+/* 基础布局 */
+.ant-layout {
+    background: #fff;
+  }
+  
+  /* 卡片样式 */
+  .ant-card {
+    margin-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+  }
+  
+  .ant-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* 操作按钮 */
+  .ant-card-extra a {
+    color: #1890ff;
+  }
+  
+  /* 响应式布局 */
+  @media (max-width: 768px) {
+    .ant-layout-sider {
+      display: none;
+    }
+    .ant-col-8 {
+      width: 100%;
+    }
+  }
